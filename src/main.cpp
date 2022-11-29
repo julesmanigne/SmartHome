@@ -36,20 +36,18 @@ float ALTITUDE_CHAMBRE = 0.0;
 
 //========================================================================================
 
-#define MQTT_SCREEN_PATH "/screen"
+#define MQTT_SCREEN_PATH "/living/screen"
 
-#define MQTT_LIGHT_BEDROOM "/chambre/light"
+#define MQTT_LIGHT_BEDROOM "/bedroom/light"
 #define MQTT_LIGHT_LIVING "/livingroom/light"
 #define MQTT_LIGHT_KITCHEN "/kitchen/light"
 
-#define MQTT_TEMPERATURE_LIVING "/sensor/temperature"
-#define MQTT_PRESSURE_LIVING "/sensor/pressure"
-#define MQTT_ALTITUDE_LIVING "/sensor/altitude"
+#define MQTT_TEMPERATURE_LIVING "/sensor/living/temperature"
+#define MQTT_PRESSURE_LIVING "/sensor/living/pressure"
+#define MQTT_ALTITUDE_LIVING "/sensor/living/altitude"
 
 #define MQTT_BUTTON_1 "/sensor/button1"
 #define MQTT_BUTTON_2 "/sensor/button2"
-
-#define MQTT_BUZZER_PATH "/buzzer"
 
 //========================================================================================
 
