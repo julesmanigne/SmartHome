@@ -17,4 +17,4 @@ This project describes how to build a Smart station using ESP32, a BMP388 (tempe
 
 ## 📝 License
 
-[GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.fr.html)
+[MIT-LICENSE]([https://www.gnu.org/licenses/gpl-3.0.fr.html](https://mit-license.org/))
