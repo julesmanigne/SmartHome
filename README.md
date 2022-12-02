@@ -49,7 +49,7 @@ brew install node
 Congratulations you’ve installed Node.js & npm
 
 ##### Node-RED
-To install **Node-RED** you can use the npm command that comes with Node.js :
+To install [**Node-RED**](https://nodered.org/) you can use the npm command that comes with Node.js :
 ```bash 
 sudo npm install -g --unsafe-perm node-red
 ```
