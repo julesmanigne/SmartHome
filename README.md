@@ -55,9 +55,9 @@ sudo npm install -g --unsafe-perm node-red
 ```
 You just have to start with the ```node-red``` command. At first boot, the necessary directories and files will be created automatically.  
 
-Enter the ip address of the specified server, by default it will be **127.0.0.1:1880**
 ![NodeRED-Install](https://github.com/julesmanigne/SmartHome/blob/master/img/NoderedInstall.png)
 
+Enter the ip address of the specified server, by default it will be **127.0.0.1:1880**
 It’s up to you to play!
 
 #### Install Mosquitto
