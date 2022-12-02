@@ -46,7 +46,10 @@ brew install node
 ```
 ![NodeJS-Install](https://github.com/julesmanigne/SmartHome/blob/master/img/NodejsInstall.png)
 
-Congratulations you’ve installed Node.js & npm
+Congratulations you’ve installed Node.js & npm, to make sure it is up to date you can run the following commmand : 
+- ``` node -v``` 
+- ``` npm -v```
+
 
 ##### Node-RED
 To install **Node-RED** you can use the npm command that comes with Node.js :
@@ -84,6 +87,8 @@ Notably, the installer also carries the Node.js package manager (npm) within it.
 
 When downloading, select the correct version as per your operating system. For example, if you’re using a 64-bit operating system, download the 64-bit version, and if you’re using the 32-bit version, download the 32-bit version
 
+Once you open and run the .msi file, the installation process begins. But you have to set a few parameters before running the installation process. The system will complete the installation within a few seconds or minutes and show you a success message. Click on the Finish button to close the Node.js installer.
+
 
 ##### Node-RED
 To install **Node-RED** you can use the npm command that comes with Node.js :
@@ -91,10 +96,6 @@ To install **Node-RED** you can use the npm command that comes with Node.js :
 sudo npm install -g --unsafe-perm node-red
 ```
 Then, you just have to start with the ```node-red``` command. At first boot, the necessary directories and files will be created automatically.  
-
-![NodeRED-Install](https://github.com/julesmanigne/SmartHome/blob/master/img/NoderedInstall.png)
-
-Enter the IP address of the specified server, by default it will be **127.0.0.1:1880**
 
 ## Quick Start
 
