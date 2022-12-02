@@ -55,7 +55,7 @@ To install Node-RED you can use the npm command that comes with Node.js :
 ```bash 
 sudo npm install -g --unsafe-perm node-red
 ```
-
+You just have to start with the ```bash node-red``` command. At first boot, the necessary directories and files will be created automatically. 
 #### Install Mosquitto
 
 ### With Windows
