@@ -23,6 +23,7 @@ You need Xcode for some Homebrew tools, Xcode is a macOS integrated development 
 xcode-select --install
 ```
 Accept starting the installation and the license, it will be installed automatically.
+
 Now, to install Homebrew automatically, run the below command for macOS High Sierra, Sierra, El Capitan, and earlier:
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
