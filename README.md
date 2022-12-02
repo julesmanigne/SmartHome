@@ -12,7 +12,7 @@ This project describes how to build a Smart station using ESP32, a BMP388 (tempe
 ## 🛠️ Installation
 ### With MacOS
 #### 🍺 Install HomeBrew
-Homebrew (brew) is a free and open-source package manager that allows installing apps and software in macOS, depending on the user’s desire. It has been recommended for its simplicity and effectiveness in saving time and effort. Its famous description is “The missing package manager for macOS”
+**Homebrew** (brew) is a free and open-source package manager that allows installing apps and software in macOS, depending on the user’s desire. It has been recommended for its simplicity and effectiveness in saving time and effort. Its famous description is “The missing package manager for macOS”
 Homebrew lets you avoid possible security problems associated with using the ```sudo``` command to install software like Node.
 
 Installing Homebrew is straightforward as long as you understand the Mac Terminal. The Homebrew installation process guides through each step.
@@ -35,11 +35,11 @@ And run this command for MacOS Catalina, macOS Mojave, and macOS Big Sur :
 Homebrew is now installed, to make sure it is up to date you can run the following commmand : 
 ``` brew update``` 
 #### Install Node-RED
-Node-RED can be used on all platforms that can run Node.js. Node-RED supports Node.js 0.10.x or later. It is recommended to use the LTS (long-term maintenance) version of Node.js. 
+**Node-RED** can be used on all platforms that can run Node.js. Node-RED supports Node.js 0.10.x or later. It is recommended to use the LTS (long-term maintenance) version of Node.js. 
 We will now use Homebrew to install Node.js and Node-Red. 
 
 ##### Node.js
-To install Node.js (npm will be installed with Node) run the following command :
+To install **Node.js** (npm will be installed with Node) run the following command :
 
 ```bash 
 brew install node
@@ -49,11 +49,13 @@ brew install node
 Congratulations you’ve installed Node.js & npm
 
 ##### Node-RED
-To install Node-RED you can use the npm command that comes with Node.js :
+To install **Node-RED** you can use the npm command that comes with Node.js :
 ```bash 
 sudo npm install -g --unsafe-perm node-red
 ```
-You just have to start with the ```node-red``` command. At first boot, the necessary directories and files will be created automatically. 
+You just have to start with the ```node-red``` command. At first boot, the necessary directories and files will be created automatically.  
+
+Enter the ip address of the specified server, by default it will be **127.0.0.1:1880**
 #### Install Mosquitto
 
 ### With Windows
