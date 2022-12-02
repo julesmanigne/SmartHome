@@ -58,7 +58,7 @@ To install **Node-RED** you can use the npm command that comes with Node.js :
 ```bash 
 sudo npm install -g --unsafe-perm node-red
 ```
-Then, you just have to start with the ```node-red``` command. At first boot, the necessary directories and files will be created automatically.  
+Once installed, you are ready to run Node-RED. You just have to start with the ```node-red``` command. At first boot, the necessary directories and files will be created automatically.   
 
 ![NodeRED-Install](https://github.com/julesmanigne/SmartHome/blob/master/img/NoderedInstall.png)
 
@@ -79,7 +79,7 @@ After the Mosquitto installation has been completed, run the following command i
 
 ### On Windows
 #### Install Node-RED
-**Node-RED** can be used on all platforms that can run Node.js. Node-RED supports Node.js 0.10.x or later. It is recommended to use the LTS (long-term maintenance) version of Node.js. 
+[**Node-RED**](https://nodered.org/) can be used on all platforms that can run Node.js. Node-RED supports Node.js 0.10.x or later. It is recommended to use the LTS (long-term maintenance) version of Node.js. 
 
 ##### Node.js
 First, you need to download the Windows Installer (.msi) file from the official [**Node.js**](https://nodejs.org/en/download/) website. This MSI installer database carries a collection of installer files essential to install, update, or modify the existing Node.js version.
@@ -92,16 +92,16 @@ Once you open and run the .msi file, the installation process begins. But you ha
 Click on the Finish button to close the Node.js installer.
 
 Congratulations you’ve installed Node.js & npm, to check the version you can run the following commmand : 
-- ``` node -version``` 
-- ``` npm -version```
+- ``` node --version``` 
+- ``` npm --version```
 
 
 ##### Node-RED
-To install **Node-RED** you can use the npm command that comes with Node.js :
+To install **Node-RED** you can use the same npm command as MacOS that comes with Node.js :
 ```bash 
 sudo npm install -g --unsafe-perm node-red
 ```
-Then, you just have to start with the ```node-red``` command. At first boot, the necessary directories and files will be created automatically.  
+Once installed, you are ready to run Node-RED. You just have to start with the ```node-red``` command. At first boot, the necessary directories and files will be created automatically.  
 
 ## Quick Start
 
