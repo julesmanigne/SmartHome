@@ -32,10 +32,7 @@ And run this command for MacOS Catalina, macOS Mojave, and macOS Big Sur :
 ```bash 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
-Homebrew is now installed on your Mac, to make sure it is up to date you can run the following commmand : 
-```bash 
-brew update
-```
+Homebrew is now installed on your Mac, to make sure it is up to date you can run the following commmand ``` brew update```
 #### Install Node-RED
 Node-RED can be used on all platforms that can run Node.js. Node-RED supports Node.js 0.10.x or later. It is recommended to use the LTS (long-term maintenance) version of Node.js. 
 We will now use Homebrew to install Node.js and Node-Red. 
@@ -55,7 +52,7 @@ To install Node-RED you can use the npm command that comes with Node.js :
 ```bash 
 sudo npm install -g --unsafe-perm node-red
 ```
-You just have to start with the ```bash node-red``` command. At first boot, the necessary directories and files will be created automatically. 
+You just have to start with the ```node-red``` command. At first boot, the necessary directories and files will be created automatically. 
 #### Install Mosquitto
 
 ### With Windows
