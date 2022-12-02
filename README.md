@@ -37,10 +37,11 @@ Homebrew is now installed on your Mac, to make sure it is up to date you can run
 brew update
 ```
 #### Install Node-Red
-Node-RED can be used on all platforms that can run Node.js. Node-RED supports node.js 0.10.x or later. It is recommended to use the LTS (long-term maintenance) version of node.js. we will nos use Homebrew to install Node.js and Node-Red. 
+Node-RED can be used on all platforms that can run Node.js. Node-RED supports Node.js 0.10.x or later. It is recommended to use the LTS (long-term maintenance) version of Node.js. 
+We will now use Homebrew to install Node.js and Node-Red. 
 
 ##### Node.js
-To install Node (npm will be installed with Node) run the following command :
+To install Node.js (npm will be installed with Node) run the following command :
 
 ```bash 
 brew install node
