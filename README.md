@@ -44,6 +44,7 @@ To install Node (npm will be installed with Node) run the following command :
 ```bash 
 brew install node
 ```
+![NodeJS-Install](https://github.com/julesmanigne/SmartHome/blob/master/img/NodejsInstall.png)
 Congratulations you’ve installed Node.js & npm
 #### Install Mosquitto
 
