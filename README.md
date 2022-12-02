@@ -88,7 +88,12 @@ Notably, the installer also carries the Node.js package manager (npm) within it.
 
 When downloading, select the correct version as per your operating system. For example, if you’re using a 64-bit operating system, download the 64-bit version, and if you’re using the 32-bit version, download the 32-bit version
 
-Once you open and run the .msi file, the installation process begins. But you have to set a few parameters before running the installation process. The system will complete the installation within a few seconds or minutes and show you a success message. Click on the Finish button to close the Node.js installer.
+Once you open and run the .msi file, the installation process begins. But you have to set a few parameters before running the installation process. The system will complete the installation within a few seconds or minutes and show you a success message. 
+Click on the Finish button to close the Node.js installer.
+
+Congratulations you’ve installed Node.js & npm, to check the version you can run the following commmand : 
+- ``` node -version``` 
+- ``` npm -version```
 
 
 ##### Node-RED
