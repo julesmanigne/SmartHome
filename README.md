@@ -12,6 +12,7 @@ This project describes how to build a Smart station using ESP32, a BMP388 (tempe
 ## 🛠️ Installation
 ### With MacOS
 #### Install HomeBrew
+Homebrew is package manager for Macs which makes installing lots of different software like Git, Ruby, and Node simpler. Homebrew lets you avoid possible security problems associated with using the ```sudo``` command to install software like Node.
 ### With Windows
 
 ## Quick Start
