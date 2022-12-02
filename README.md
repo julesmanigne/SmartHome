@@ -11,7 +11,7 @@ This project describes how to build a Smart station using ESP32, a BMP388 (tempe
 
 ## 🛠️ Installation
 ### With MacOS
-
+#### Install HomeBrew
 ### With Windows
 
 ## Quick Start
