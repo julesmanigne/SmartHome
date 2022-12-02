@@ -10,7 +10,7 @@
 This project describes how to build a Smart station using ESP32, a BMP388 (temperature sensor), DHT22 (humidity sensor), a SSD1306 (OLED screen) and some LEDs. 
 
 ## 🛠️ Installation
-### With MacOS
+### On MacOS
 #### 🍺 Install HomeBrew
 **Homebrew** (brew) is a free and open-source package manager that allows installing apps and software in macOS, depending on the user’s desire. It has been recommended for its simplicity and effectiveness in saving time and effort. Its famous description is “The missing package manager for macOS”
 Homebrew lets you avoid possible security problems associated with using the ```sudo``` command to install software like Node.
@@ -73,7 +73,7 @@ To ***start*** the broker, run the following command : ```brew services start mo
 
 To ***stop*** the broker, run the following command : ```brew services stop mosquitto```
 
-### With Windows
+### On Windows
 #### Install Node-RED
 **Node-RED** can be used on all platforms that can run Node.js. Node-RED supports Node.js 0.10.x or later. It is recommended to use the LTS (long-term maintenance) version of Node.js. 
 
