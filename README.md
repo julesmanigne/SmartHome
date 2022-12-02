@@ -33,6 +33,7 @@ And run this command for MacOS Catalina, macOS Mojave, and macOS Big Sur :
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 #### Install Node-Red
+Node-RED can be used on all platforms that can run Node.js. Node-RED supports node.js 0.10.x or later. It is recommended to use the LTS (long-term maintenance) version of node.js
 #### Install Mosquitto
 
 ### With Windows
