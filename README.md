@@ -50,7 +50,7 @@ Congratulations you’ve installed Node.js & npm, to check the version you can r
 - ``` node -version``` 
 - ``` npm -version```
 
-If the Node.js version and npm are correctly installed, you’ll see the version name in the Terminal
+If the Node.js version and npm are correctly installed, you’ll see the version name in the Terminal. 
 
 
 ##### Node-RED
@@ -62,7 +62,7 @@ Then, you just have to start with the ```node-red``` command. At first boot, the
 
 ![NodeRED-Install](https://github.com/julesmanigne/SmartHome/blob/master/img/NoderedInstall.png)
 
-Enter the IP address of the specified server, by default it will be **127.0.0.1:1880**
+Enter the IP address of the specified server, by default it will be **127.0.0.1:1880**.
 
 #### Install Mosquitto
 Open a Terminal window and run the following command to request Homebrew to install **Mosquitto** :
@@ -74,9 +74,8 @@ After the Mosquitto installation has been completed, run the following command i
 /usr/local/sbin/mosquitto -c /usr/local/etc/mosquitto/mosquitto.conf
 ```
 
-To ***start*** the broker, run the following command : ```brew services start mosquitto```
-
-To ***stop*** the broker, run the following command : ```brew services stop mosquitto```
+- To ***start*** the broker, run the following command : ```brew services start mosquitto```
+- To ***stop*** the broker, run the following command : ```brew services stop mosquitto```
 
 ### On Windows
 #### Install Node-RED
