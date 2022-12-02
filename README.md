@@ -38,11 +38,13 @@ brew update
 ```
 #### Install Node-Red
 Node-RED can be used on all platforms that can run Node.js. Node-RED supports node.js 0.10.x or later. It is recommended to use the LTS (long-term maintenance) version of node.js, 
+
 To install Node (npm will be installed with Node) run the following command :
 
 ```bash 
 brew install node
 ```
+Congratulations you’ve installed Node.js & npm
 #### Install Mosquitto
 
 ### With Windows
