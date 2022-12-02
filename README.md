@@ -46,9 +46,11 @@ brew install node
 ```
 ![NodeJS-Install](https://github.com/julesmanigne/SmartHome/blob/master/img/NodejsInstall.png)
 
-Congratulations you’ve installed Node.js & npm, to make sure it is up to date you can run the following commmand : 
-- ``` node -v``` 
-- ``` npm -v```
+Congratulations you’ve installed Node.js & npm, to check the version you can run the following commmand : 
+- ``` node -version``` 
+- ``` npm -version```
+
+If the Node.js version and npm are correctly installed, you’ll see the version name in the Terminal
 
 
 ##### Node-RED
