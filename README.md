@@ -16,6 +16,13 @@ Homebrew (brew) is a free and open-source package manager that allows installing
 Homebrew lets you avoid possible security problems associated with using the ```sudo``` command to install software like Node.
 
 Installing Homebrew is straightforward as long as you understand the Mac Terminal. The Homebrew installation process guides through each step.
+
+You need Xcode for some Homebrew tools, Xcode is a macOS integrated development environment (IDE). You can use it to make apps for all mac OSs, iOS, iPad OS, watch OS, and tv OS. To download and install it, run the following command in the Terminal:
+
+```bash
+xcode-select --install
+```
+
 ### With Windows
 
 ## Quick Start
