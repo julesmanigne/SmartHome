@@ -12,7 +12,7 @@ This project describes how to build a Smart station using ESP32, a BMP388 (tempe
 ## 🛠️ Installation
 ### On MacOS
 #### 🍺 Install HomeBrew
-**Homebrew** (brew) is a free and open-source package manager that allows installing apps and software in macOS, depending on the user’s desire. It has been recommended for its simplicity and effectiveness in saving time and effort. Its famous description is “The missing package manager for macOS”
+[**Homebrew**](https://brew.sh/index_fr) (brew) is a free and open-source package manager that allows installing apps and software in macOS, depending on the user’s desire. It has been recommended for its simplicity and effectiveness in saving time and effort. Its famous description is “The missing package manager for macOS”
 Homebrew lets you avoid possible security problems associated with using the ```sudo``` command to install software like Node.
 
 Installing Homebrew is straightforward as long as you understand the Mac Terminal. The Homebrew installation process guides through each step.
@@ -84,12 +84,6 @@ Notably, the installer also carries the Node.js package manager (npm) within it.
 
 When downloading, select the correct version as per your operating system. For example, if you’re using a 64-bit operating system, download the 64-bit version, and if you’re using the 32-bit version, download the 32-bit version
 
-```bash 
-brew install node
-```
-![NodeJS-Install](https://github.com/julesmanigne/SmartHome/blob/master/img/NodejsInstall.png)
-
-Congratulations you’ve installed Node.js & npm
 
 ##### Node-RED
 To install **Node-RED** you can use the npm command that comes with Node.js :
