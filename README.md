@@ -69,9 +69,9 @@ After the Mosquitto installation has been completed, run the following command i
 /usr/local/sbin/mosquitto -c /usr/local/etc/mosquitto/mosquitto.conf
 ```
 
-To *start* the broker, run the following command : ```brew services start mosquitto```
+To ***start*** the broker, run the following command : ```brew services start mosquitto```
 
-To *stop* the broker, run the following command : ```brew services stop mosquitto```
+To ***stop*** the broker, run the following command : ```brew services stop mosquitto```
 
 ### With Windows
 
