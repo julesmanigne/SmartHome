@@ -36,7 +36,7 @@ Homebrew is now installed on your Mac, to make sure it is up to date you can run
 ```bash 
 brew update
 ```
-#### Install Node-Red
+#### Install Node-RED
 Node-RED can be used on all platforms that can run Node.js. Node-RED supports Node.js 0.10.x or later. It is recommended to use the LTS (long-term maintenance) version of Node.js. 
 We will now use Homebrew to install Node.js and Node-Red. 
 
@@ -49,6 +49,13 @@ brew install node
 ![NodeJS-Install](https://github.com/julesmanigne/SmartHome/blob/master/img/NodejsInstall.png)
 
 Congratulations you’ve installed Node.js & npm
+
+##### Node-RED
+To install Node-RED you can use the npm command that comes with Node.js :
+```bash 
+sudo npm install -g --unsafe-perm node-red
+```
+
 #### Install Mosquitto
 
 ### With Windows
