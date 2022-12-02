@@ -74,6 +74,33 @@ To ***start*** the broker, run the following command : ```brew services start mo
 To ***stop*** the broker, run the following command : ```brew services stop mosquitto```
 
 ### With Windows
+#### Install Node-RED
+**Node-RED** can be used on all platforms that can run Node.js. Node-RED supports Node.js 0.10.x or later. It is recommended to use the LTS (long-term maintenance) version of Node.js. 
+
+##### Node.js
+First, you need to download the Windows Installer (.msi) file from the official [**Node.js**](https://nodejs.org/en/download/) website. This MSI installer database carries a collection of installer files essential to install, update, or modify the existing Node.js version.
+
+Notably, the installer also carries the Node.js package manager (npm) within it. It means you don’t need to install the npm separately.
+
+When downloading, select the correct version as per your operating system. For example, if you’re using a 64-bit operating system, download the 64-bit version, and if you’re using the 32-bit version, download the 32-bit version
+
+```bash 
+brew install node
+```
+![NodeJS-Install](https://github.com/julesmanigne/SmartHome/blob/master/img/NodejsInstall.png)
+
+Congratulations you’ve installed Node.js & npm
+
+##### Node-RED
+To install **Node-RED** you can use the npm command that comes with Node.js :
+```bash 
+sudo npm install -g --unsafe-perm node-red
+```
+Then, you just have to start with the ```node-red``` command. At first boot, the necessary directories and files will be created automatically.  
+
+![NodeRED-Install](https://github.com/julesmanigne/SmartHome/blob/master/img/NoderedInstall.png)
+
+Enter the IP address of the specified server, by default it will be **127.0.0.1:1880**
 
 ## Quick Start
 
@@ -81,7 +108,7 @@ To ***stop*** the broker, run the following command : ```brew services stop mosq
 
 ![ESP32 Smart Home](https://github.com/julesmanigne/SmartHome/blob/master/img/Fritzing-Schematic.jpeg)
 #### Parts : 
-- 1x breadboard 
+- 1x Breadboard 
 - 1x ESP32 Dev board / ESP8266 NodeMCU (can do the job too)
 - 1x OLED screen (SSD1306)
 - 2x BMP388 Adafruit / BMP280 (can do the job too)
