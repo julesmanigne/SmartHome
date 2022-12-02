@@ -80,7 +80,12 @@ To ***stop*** the broker, run the following command : ```brew services stop mosq
 ## Schematics
 
 ![ESP32 Smart Home](https://github.com/julesmanigne/SmartHome/blob/master/img/Fritzing-Schematic.jpeg)
-
+#### Parts : 
+- 1x ESP32 Dev board / ESP8266 NodeMCU (can do the job too)
+- 1x OLED screen (SSD1306)
+- 2x BMP388 Adafruit / BMP280 (can do the job too)
+- 2x DHT11 / DHT22 (can do the job too)
+- 6x LEDs 
 ## 📝 License
 
 [MIT-License](https://www.mit.edu/~amini/LICENSE.md)
