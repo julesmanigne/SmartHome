@@ -34,6 +34,10 @@ And run this command for MacOS Catalina, macOS Mojave, and macOS Big Sur :
 ```
 #### Install Node-Red
 Node-RED can be used on all platforms that can run Node.js. Node-RED supports node.js 0.10.x or later. It is recommended to use the LTS (long-term maintenance) version of node.js
+
+```bash 
+brew install node
+```
 #### Install Mosquitto
 
 ### With Windows
