@@ -11,7 +11,7 @@ This project describes how to build a Smart station using ESP32, a BMP388 (tempe
 
 ## 🛠️ Installation
 ### With MacOS
-#### Install HomeBrew
+#### 🍺 Install HomeBrew
 Homebrew (brew) is a free and open-source package manager that allows installing apps and software in macOS, depending on the user’s desire. It has been recommended for its simplicity and effectiveness in saving time and effort. Its famous description is “The missing package manager for macOS”
 Homebrew lets you avoid possible security problems associated with using the ```sudo``` command to install software like Node.
 
@@ -24,10 +24,17 @@ xcode-select --install
 ```
 Accept starting the installation and the license, it will be installed automatically.
 
-Now, to install Homebrew automatically, run the below command for macOS High Sierra, Sierra, El Capitan, and earlier:
+Now, to install Homebrew automatically, run the below command for macOS High Sierra, Sierra, El Capitan, and earlier :
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
+And run this command for MacOS Catalina, macOS Mojave, and macOS Big Sur :
+```bash 
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
+#### Install Node-Red
+#### Install Mosquitto
+
 ### With Windows
 
 ## Quick Start
