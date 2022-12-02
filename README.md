@@ -70,12 +70,12 @@ After the Mosquitto installation has been completed, run the following command i
 ```
 
 To *start* the broker, run the following command : 
-```bash 
+```
 brew services start mosquitto
 ```
 
 To *stop* the broker, run the following command : 
-```bash 
+```
 brew services stop mosquitto
 ```
 
