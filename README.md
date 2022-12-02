@@ -64,6 +64,10 @@ Open a Terminal window and run the following command to request Homebrew to inst
 ```bash 
 brew install mosquitto
 ```
+After the Mosquitto installation has been completed, run the following command in a new Terminal window to launch Mosquitto with the default configuration. 
+```bash 
+/usr/local/sbin/mosquitto -c /usr/local/etc/mosquitto/mosquitto.conf
+```
 
 ### With Windows
 
