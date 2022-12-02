@@ -60,6 +60,10 @@ Then, you just have to start with the ```node-red``` command. At first boot, the
 Enter the IP address of the specified server, by default it will be **127.0.0.1:1880**
 
 #### Install Mosquitto
+Open a Terminal window and run the following command to request Homebrew to install **Mosquitto** :
+```bash 
+brew install mosquitto
+```
 
 ### With Windows
 
