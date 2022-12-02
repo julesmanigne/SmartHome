@@ -15,13 +15,13 @@
 #define LED1 19
 #define LED2 18
 #define LED3 15
-#define DHTPIN 2 // what digital pin we're connected to
-#define DHTTYPE DHT22
+#define DHTPIN 17 // what digital pin we're connected to
+#define DHTTYPE DHT11
 
-float TEMPERATURE_CHAMBRE = 0.0;
-float PRESSION_CHAMBRE = 0.0;
-float ALTITUDE_CHAMBRE = 0.0;
-float HUMIDITE_CHAMBRE = 0.0;
+// float TEMPERATURE_CHAMBRE = 0.0;
+// float PRESSION_CHAMBRE = 0.0;
+// float ALTITUDE_CHAMBRE = 0.0;
+// float HUMIDITE_CHAMBRE = 0.0;
 
 float TEMPERATURE_SALON = 0.0;
 float PRESSION_SALON = 0.0;
@@ -54,12 +54,12 @@ float HUMIDITE_SALON = 0.0;
 #define MQTT_TEMPERATURE_LIVING "/sensor/living/temperature"
 #define MQTT_PRESSURE_LIVING "/sensor/living/pressure"
 #define MQTT_ALTITUDE_LIVING "/sensor/living/altitude"
-#define MQTT_HUMIDITE_LIVING "/sensor/living/humidite"
+#define MQTT_HUMIDITE_LIVING "/sensor/living/humidity"
 
-#define MQTT_TEMPERATURE_BEDROOM "/sensor/bedroom/temperature"
-#define MQTT_PRESSURE_BEDROOM "/sensor/bedroom/pressure"
-#define MQTT_ALTITUDE_BEDROOM "/sensor/bedroom/altitude"
-#define MQTT_HUMIDITE_BEDROOM "/sensor/bedroom/humidite"
+// #define MQTT_TEMPERATURE_BEDROOM "/sensor/bedroom/temperature"
+// c#define MQTT_PRESSURE_BEDROOM "/sensor/bedroom/pressure"
+// #define MQTT_ALTITUDE_BEDROOM "/sensor/bedroom/altitude"
+// #define MQTT_HUMIDITE_BEDROOM "/sensor/bedroom/humidite"
 
 //========================================================================================
 
@@ -71,10 +71,10 @@ float HUMIDITE_SALON = 0.0;
 WiFiClient espClient;
 PubSubClient mqtt(espClient);
 Adafruit_BMP3XX bmpL;
-Adafruit_BMP3XX bmpB;
+// Adafruit_BMP3XX bmpB;
 #define SEALEVELPRESSURE_HPA (1013.25)
 Adafruit_SSD1306 oled(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
-DHT dht(DHTPIN, DHTTYPE);
+DHT dhtLiving(DHTPIN, DHTTYPE);
 
 //========================================================================================
 
@@ -168,26 +168,21 @@ void setup()
   //=========================
 
   //===========DHT===========
-  Serial.println("DHTxx test!");
-  dht.begin();
+  Serial.println("DHT11 test!");
+  dhtLiving.begin();
   //========================
 
   //========BMP388===========
   while (!Serial)
     ;
   Serial.println("Adafruit BMP388 connected");
-  if (!bmpB.begin_I2C() && bmpL.begin_I2C())
+  if (!bmpL.begin_I2C())
   { // hardware I2C mode, can pass in address & alt Wire
     Serial.println("Could not find a valid BMP388 sensor, check wiring!");
     while (1)
       ;
   }
   // Set up oversampling and filter initialization
-  bmpB.setTemperatureOversampling(BMP3_OVERSAMPLING_8X);
-  bmpB.setPressureOversampling(BMP3_OVERSAMPLING_4X);
-  bmpB.setIIRFilterCoeff(BMP3_IIR_FILTER_COEFF_3);
-  bmpB.setOutputDataRate(BMP3_ODR_50_HZ);
-
   bmpL.setTemperatureOversampling(BMP3_OVERSAMPLING_8X);
   bmpL.setPressureOversampling(BMP3_OVERSAMPLING_4X);
   bmpL.setIIRFilterCoeff(BMP3_IIR_FILTER_COEFF_3);
@@ -229,30 +224,28 @@ void loop()
     return;
   }
 
-  PRESSION_CHAMBRE = (bmpB.pressure / 100.0);
-  ALTITUDE_CHAMBRE = bmpB.readAltitude(SEALEVELPRESSURE_HPA);
-  TEMPERATURE_CHAMBRE = bmpB.temperature;
-  HUMIDITE_CHAMBRE = dht.readHumidity();
+  // PRESSION_CHAMBRE = (bmpB.pressure / 100.0);
+  // ALTITUDE_CHAMBRE = bmpB.readAltitude(SEALEVELPRESSURE_HPA);
+  // TEMPERATURE_CHAMBRE = bmpB.temperature;
+  // HUMIDITE_CHAMBRE = ;
 
   PRESSION_SALON = (bmpL.pressure / 100.0);
   ALTITUDE_SALON = bmpL.readAltitude(SEALEVELPRESSURE_HPA);
   TEMPERATURE_SALON = bmpL.temperature;
+  HUMIDITE_SALON = dhtLiving.readHumidity();
 
-  mqtt.publish(MQTT_PRESSURE_BEDROOM, String(PRESSION_CHAMBRE).c_str());
-  mqtt.publish(MQTT_ALTITUDE_BEDROOM, String(ALTITUDE_CHAMBRE).c_str());
-  mqtt.publish(MQTT_TEMPERATURE_BEDROOM, String(TEMPERATURE_CHAMBRE).c_str());
-  mqtt.publish(MQTT_HUMIDITE_BEDROOM, String(HUMIDITE_CHAMBRE).c_str());
+  // mqtt.publish(MQTT_PRESSURE_BEDROOM, String(PRESSION_CHAMBRE).c_str());
+  // mqtt.publish(MQTT_ALTITUDE_BEDROOM, String(ALTITUDE_CHAMBRE).c_str());
+  // mqtt.publish(MQTT_TEMPERATURE_BEDROOM, String(TEMPERATURE_CHAMBRE).c_str());
+  // mqtt.publish(MQTT_HUMIDITE_BEDROOM, String(HUMIDITE_CHAMBRE).c_str());
 
   mqtt.publish(MQTT_PRESSURE_LIVING, String(PRESSION_SALON).c_str());
   mqtt.publish(MQTT_ALTITUDE_LIVING, String(ALTITUDE_SALON).c_str());
   mqtt.publish(MQTT_TEMPERATURE_LIVING, String(TEMPERATURE_SALON).c_str());
+  mqtt.publish(MQTT_HUMIDITE_LIVING, String(HUMIDITE_SALON).c_str());
 
-  if (!isnan(PRESSION_CHAMBRE) && !isnan(PRESSION_SALON))
+  if (!isnan(PRESSION_SALON))
   {
-    Serial.print("press hPa =");
-    Serial.print(PRESSION_CHAMBRE);
-    Serial.print("\t\t");
-
     Serial.print("press hPa =");
     Serial.print(PRESSION_SALON);
     Serial.print("\t\t");
@@ -262,12 +255,8 @@ void loop()
     Serial.println("Failed to read pressure");
   }
 
-  if (!isnan(ALTITUDE_CHAMBRE) && !isnan(ALTITUDE_SALON))
+  if (!isnan(ALTITUDE_SALON))
   {
-    Serial.print("Approx. Altitude =");
-    Serial.print(ALTITUDE_CHAMBRE);
-    Serial.print("\t\t");
-
     Serial.print("Approx. Altitude =");
     Serial.print(ALTITUDE_SALON);
     Serial.print("\t\t");
@@ -277,12 +266,8 @@ void loop()
     Serial.println("Failed to read altitude");
   }
 
-  if (!isnan(TEMPERATURE_CHAMBRE) && !isnan(TEMPERATURE_SALON))
+  if (!isnan(TEMPERATURE_SALON))
   {
-    Serial.print("temp *C =");
-    Serial.print(TEMPERATURE_CHAMBRE);
-    Serial.print("\t\t");
-
     Serial.print("temp *C =");
     Serial.print(TEMPERATURE_SALON);
     Serial.print("\t\t");
@@ -292,10 +277,10 @@ void loop()
     Serial.println("Failed to read temperature");
   }
 
-  if (!isnan(HUMIDITE_CHAMBRE))
+  if (!isnan(HUMIDITE_SALON))
   {
     Serial.print("Humidity: ");
-    Serial.print(HUMIDITE_CHAMBRE);
+    Serial.print(HUMIDITE_SALON);
     Serial.print(" %\t");
   }
   else
