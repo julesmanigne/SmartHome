@@ -103,7 +103,7 @@ Then, copy the Arduino application bundle into the Applications folder (or elsew
 To install the ESP32 board in your Arduino IDE, follow these next instructions : <br>
 In your Arduino IDE, go to File> Preferences : 
 
-Enter the following into the “Additional Board Manager URLs” field : <br>
+Enter the following into the ***Additional Board Manager URLs*** field : <br>
 ```https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json```
 
 ### On Windows
@@ -152,10 +152,10 @@ Get the latest version of **Arduino** from the [**download page**](https://www.a
 With the zip package you need to install the drivers manually. The zip file is also useful if you want to create a portable installation.
 
 ##### ESP-32 
-To install the ESP32 board in your Arduino IDE, follow these next instructions : 
-
+To install the ESP32 board in your Arduino IDE, follow these next instructions : <br>
 In your Arduino IDE, go to File> Preferences : 
-Enter the following into the “Additional Board Manager URLs” field : 
+
+Enter the following into the ***Additional Board Manager URLs***field : <br>
 ```https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json```
 
 ## Quick Start
