@@ -7,7 +7,13 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/julesmanigne/SmartHome?color=blueviolet&logo=GitHUb&logoColor=yellow)
 ## Summary
 
-This project describes how to build a Smart station using ESP32, a BMP388 (temperature sensor), DHT22 (humidity sensor), a SSD1306 (OLED screen) and some LEDs. 
+This project describes how to build a Smart station using ESP32, a BMP388 (temperature sensor), DHT22 (humidity sensor), a SSD1306 (OLED screen) and some LEDs.
+- [🛠️ Installation](## 🛠️ Installation) 
+- Second item
+- Third item
+    - Indented item
+    - Indented item
+- Fourth item  
 
 ## 🛠️ Installation
 ### On MacOS
@@ -115,7 +121,7 @@ The installation path is by default: C:\Program Files\mosquitto
 Navigate to the folder with cmd.exe using cd C:\”Program Files”\mosquitto
 
 Running the command ```mosquitto.exe -v``` will start the broker. 
-For more information check this tutorial : [Mosquitto-Install](https://team-ethernet.github.io/guides/How%20to%20install%20and%20use%20Mosquitto%20for%20Windows.pdf)
+For more information check this tutorial : [**Mosquitto-Install**](https://team-ethernet.github.io/guides/How%20to%20install%20and%20use%20Mosquitto%20for%20Windows.pdf)
 ## Quick Start
 
 ## Schematics
