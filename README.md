@@ -140,8 +140,7 @@ Download **Mosquitto** from https://mosquitto.org/download/ and install it, if y
 If you installed Mosquitto this way you can disable the service by going into the Services
 menu in Windows and pressing the stop button with the Mosquitto Broker selected. 
 
-The installation path is by default : ***C:\Program Files\mosquitto*** <br>
-Navigate to the folder with cmd.exe using : <br>
+The installation path is by default : ***C:\Program Files\mosquitto***, navigate to the folder with cmd.exe using : <br>
 ```cd C:\”Program Files”\mosquitto```
 
 Running the command ```mosquitto.exe -v``` will start the broker. 
