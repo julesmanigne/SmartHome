@@ -106,7 +106,7 @@ Once installed, you are ready to run Node-RED, you just have to start with the `
 Enter the IP address of the specified server, by default it will be **127.0.0.1:1880**.
 
 #### Install Mosquitto
-Download Mosquitto from https://mosquitto.org/download/ and install it, if you install it with the “Service” checkbox checked, it will start automatically with Windows and occupy the default port 1883.
+Download **Mosquitto** from https://mosquitto.org/download/ and install it, if you install it with the “Service” checkbox checked, it will start automatically with Windows and occupy the default port **1883**.
 
 If you installed Mosquitto this way you can disable the service by going into the Services
 menu in Windows and pressing the stop button with the Mosquitto Broker selected. 
@@ -115,7 +115,7 @@ The installation path is by default: C:\Program Files\mosquitto
 Navigate to the folder with cmd.exe using cd C:\”Program Files”\mosquitto
 
 Running the command ```mosquitto.exe -v``` will start the broker. 
-For more information check this tutorial : [Mosquitto-Install](pdf/MosquittoInstall.pdf)
+For more information check this tutorial : [Mosquitto-Install](https://team-ethernet.github.io/guides/How%20to%20install%20and%20use%20Mosquitto%20for%20Windows.pdf)
 ## Quick Start
 
 ## Schematics
