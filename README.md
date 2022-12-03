@@ -40,8 +40,7 @@ You need Xcode for some Homebrew tools, Xcode is a macOS integrated development 
 ```bash
 xcode-select --install
 ```
-Accept starting the installation and the license, it will be installed automatically.
-
+Accept starting the installation and the license, it will be installed automatically.<br>
 Now, to install Homebrew automatically, run the below command for macOS High Sierra, Sierra, El Capitan, and earlier :
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -104,7 +103,7 @@ Then, copy the Arduino application bundle into the Applications folder (or elsew
 To install the ESP32 board in your Arduino IDE, follow these next instructions : <br>
 In your Arduino IDE, go to File> Preferences : 
 
-Enter the following into the “Additional Board Manager URLs” field : 
+Enter the following into the “Additional Board Manager URLs” field : <br>
 ```https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json```
 
 ### On Windows
@@ -141,8 +140,9 @@ Download **Mosquitto** from https://mosquitto.org/download/ and install it, if y
 If you installed Mosquitto this way you can disable the service by going into the Services
 menu in Windows and pressing the stop button with the Mosquitto Broker selected. 
 
-The installation path is by default: C:\Program Files\mosquitto
-Navigate to the folder with cmd.exe using cd C:\”Program Files”\mosquitto
+The installation path is by default : ***C:\Program Files\mosquitto*** <br>
+Navigate to the folder with cmd.exe using : <br>
+```cd C:\”Program Files”\mosquitto```
 
 Running the command ```mosquitto.exe -v``` will start the broker. 
 For more information check this tutorial : [**Mosquitto-Install**](https://team-ethernet.github.io/guides/How%20to%20install%20and%20use%20Mosquitto%20for%20Windows.pdf)
