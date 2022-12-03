@@ -30,7 +30,7 @@ This project describes how to build a Smart station using ESP32, a BMP388 (tempe
 ### On MacOS
 #### 🍺 Install HomeBrew
 [**Homebrew**](https://brew.sh/index_fr) (brew) is a free and open-source package manager that allows installing apps and software in macOS, depending on the user’s desire. It has been recommended for its simplicity and effectiveness in saving time and effort. Its famous description is “The missing package manager for macOS”
-Homebrew lets you avoid possible security problems associated with using the ```sudo``` command to install software like Node. f
+Homebrew lets you avoid possible security problems associated with using the ```sudo``` command to install software like Node.
 
 Installing Homebrew is straightforward as long as you understand the Mac Terminal. The Homebrew installation process guides through each step.
 
