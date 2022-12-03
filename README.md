@@ -51,7 +51,7 @@ Homebrew is now installed, to make sure it is up to date you can run the followi
 ``` brew update``` 
 #### Install Node-RED
 [**Node-RED**](https://nodered.org/) can be used on all platforms that can run Node.js. Node-RED supports Node.js 0.10.x or later. It is recommended to use the LTS (long-term maintenance) version of Node.js. 
-We will now use Homebrew to install Node.js and Node-Red. 
+We will now use ***Homebrew*** to install Node.js and Node-Red. 
 
 ##### Node.js
 To install [**Node.js**](https://formulae.brew.sh/formula/node#default) (npm will be installed with Node) run the following command :
