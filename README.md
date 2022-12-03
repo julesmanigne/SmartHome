@@ -106,7 +106,7 @@ Once installed, you are ready to run Node-RED, you just have to start with the `
 Enter the IP address of the specified server, by default it will be **127.0.0.1:1880**.
 
 #### Install Mosquitto
-Download Mosquitto from (https://mosquitto.org/download/) and install it
+Download Mosquitto from https://mosquitto.org/download/ and install it, if you install it with the “Service” checkbox checked, it will start automatically with Windows and occupy the default port 1883.
 ## Quick Start
 
 ## Schematics
