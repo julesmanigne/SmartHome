@@ -51,11 +51,14 @@ And run this command for MacOS Catalina, macOS Mojave, and macOS Big Sur :
 ```
 Homebrew is now installed, to make sure it is up to date you can run the following commmand : 
 ``` brew update``` 
+
 #### Install Node-RED
+
 [**Node-RED**](https://nodered.org/) can be used on all platforms that can run Node.js. Node-RED supports Node.js 0.10.x or later. It is recommended to use the LTS (long-term maintenance) version of Node.js. 
 We will now use ***Homebrew*** to install Node.js and Node-Red. 
 
 ##### Node.js
+
 To install [**Node.js**](https://formulae.brew.sh/formula/node#default) (npm will be installed with Node) run the following command :
 
 ```bash 
@@ -69,8 +72,8 @@ Congratulations you’ve installed Node.js & npm, to check the version you can r
 
 If the Node.js version and npm are correctly installed, you’ll see the version name in the Terminal. 
 
-
 ##### Node-RED
+
 To install **Node-RED** you can use the npm command that comes with Node.js :
 ```bash 
 sudo npm install -g --unsafe-perm node-red
@@ -82,6 +85,7 @@ Once installed, you are ready to run Node-RED, you just have to start with the `
 Enter the IP address of the specified server, by default it will be **127.0.0.1:1880**.
 
 #### Install Mosquitto
+
 Open a Terminal window and run the following command to request Homebrew to install **Mosquitto** :
 ```bash 
 brew install mosquitto
@@ -95,16 +99,20 @@ After the Mosquitto installation has been completed, run the following command i
 - To ***stop*** the broker, run the following command : ```brew services stop mosquitto```
 
 #### Install Arduino 
+
 Get the latest version of **Arduino** from the [**download page**](https://www.arduino.cc/en/software). The file is in zip format, if you use Safari it will be automatically extracted. If you use a different browser you may need to extract it manually.
 
 Then, copy the Arduino application bundle into the Applications folder (or elsewhere on your computer).
 
 ##### ESP-32 
+
 To install the ESP32 board in your Arduino IDE, follow these next instructions : <br>
 In your Arduino IDE, go to File> Preferences : 
 
 Enter the following into the ***Additional Board Manager URLs*** field : <br>
 ```https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json```
+
+Next, open the Boards Manager, go to Tools > Board > Boards Manager, search for ESP32 and press install button for the *ESP32 by Espressif Systems*. That’s it. It should be installed after a few seconds.
 
 ### On Windows
 #### Install Node-RED
@@ -158,8 +166,7 @@ In your Arduino IDE, go to File> Preferences :
 Enter the following into the ***Additional Board Manager URLs*** field : <br>
 ```https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json```
 
-Next, open the Boards Manager, go to Tools > Board > Boards Manager, <br>
-Search for ESP32 and press install button for the *ESP32 by Espressif Systems*. That’s it. It should be installed after a few seconds.
+Next, open the Boards Manager, go to Tools > Board > Boards Manager, search for ESP32 and press install button for the *ESP32 by Espressif Systems*. That’s it. It should be installed after a few seconds.
 ## Quick Start
 
 ## Schematics
