@@ -104,6 +104,7 @@ Then, copy the Arduino application bundle into the Applications folder (or elsew
 To install the ESP32 board in your Arduino IDE, follow these next instructions : 
 
 In your Arduino IDE, go to File> Preferences : 
+
 ![ArduinoPref](https://github.com/julesmanigne/SmartHome/blob/master/img/ArduinoPref.jpeg)
 
 ### On Windows
