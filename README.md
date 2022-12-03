@@ -5,7 +5,7 @@
 ![GitHub](https://img.shields.io/github/license/julesmanigne/SmartHome?color=success)
 ![GitHub repo size](https://img.shields.io/github/repo-size/julesmanigne/SmartHome?color=purple)
 ![GitHub last commit](https://img.shields.io/github/last-commit/julesmanigne/SmartHome?color=blueviolet&logo=GitHUb&logoColor=yellow)
-## Summary
+## Introduction
 
 This project describes how to build a Smart station using ESP32, a BMP388 (temperature sensor), DHT22 (humidity sensor), a SSD1306 (OLED screen) and some LEDs.
 - [🛠️ Installation](#%EF%B8%8F-installation)
@@ -20,7 +20,6 @@ This project describes how to build a Smart station using ESP32, a BMP388 (tempe
             - [Node.js](#nodejs-1)
             - [Node-RED](#node-red-1)
         - [Install Mosquitto](#install-mosquitto-1)
-
 - [Quick Start](#quick-start)
 - [Schematics](#schematics)  
 
@@ -91,6 +90,9 @@ After the Mosquitto installation has been completed, run the following command i
 
 - To ***start*** the broker, run the following command : ```brew services start mosquitto```
 - To ***stop*** the broker, run the following command : ```brew services stop mosquitto```
+
+#### Install Arduino 
+Get the latest version of **Arduino** from the [**download page**](https://www.arduino.cc/en/software). The file is in zip format. If you use Safari it will be automatically extracted. If you use a different browser you may need to extract it manually.
 
 ### On Windows
 #### Install Node-RED
