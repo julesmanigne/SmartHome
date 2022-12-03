@@ -101,9 +101,10 @@ Get the latest version of **Arduino** from the [**download page**](https://www.a
 Then, copy the Arduino application bundle into the Applications folder (or elsewhere on your computer).
 
 ##### ESP-32 
-To install the ESP32 board in your Arduino IDE, follow these next instructions. 
+To install the ESP32 board in your Arduino IDE, follow these next instructions : 
+
 In your Arduino IDE, go to File> Preferences : 
-![ArduinoPref]()
+![ArduinoPref](https://github.com/julesmanigne/SmartHome/blob/master/img/ArduinoPref.jpeg)
 
 ### On Windows
 #### Install Node-RED
@@ -151,9 +152,10 @@ Get the latest version of **Arduino** from the [**download page**](https://www.a
 With the zip package you need to install the drivers manually. The zip file is also useful if you want to create a portable installation.
 
 ##### ESP-32 
-To install the ESP32 board in your Arduino IDE, follow these next instructions. 
+To install the ESP32 board in your Arduino IDE, follow these next instructions : 
+
 In your Arduino IDE, go to File> Preferences : 
-![ArduinoPref]()
+![ArduinoPref](https://github.com/julesmanigne/SmartHome/blob/master/img/ArduinoPref.jpeg)
 
 ## Quick Start
 
