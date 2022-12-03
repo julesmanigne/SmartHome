@@ -1,7 +1,8 @@
 # ESP32 Smart Home
 ## Build a Smart Home using ESP32 
 
-
+![GitHub](https://img.shields.io/github/license/julesmanigne/SmartHome?color=success)
+![GitHub repo size](https://img.shields.io/github/repo-size/julesmanigne/SmartHome?color=blueviolet)
 ![GitHub last commit](https://img.shields.io/github/last-commit/julesmanigne/SmartHome?color=yellow&logo=GitHUb&logoColor=yellow)
 ## Introduction
 
