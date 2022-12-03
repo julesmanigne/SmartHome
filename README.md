@@ -16,12 +16,14 @@ This project describes how to build a Smart station using ESP32, a BMP388 (tempe
             - [Node-RED](#node-red)
         - [Install Mosquitto](#install-mosquitto)
         - [Install Arduino](#install-arduino)
+            - [ESP-32](#esp-32)
     - [On Windows](#on-windows)
         - [Install Node-RED](#install-node-red-1)
             - [Node.js](#nodejs-1)
             - [Node-RED](#node-red-1)
         - [Install Mosquitto](#install-mosquitto-1)
         - [Install Arduino](#install-arduino-1)
+            - [ESP-32](#esp-32-1)
 - [Quick Start](#quick-start)
 - [Schematics](#schematics)  
 
@@ -98,6 +100,11 @@ Get the latest version of **Arduino** from the [**download page**](https://www.a
 
 Then, copy the Arduino application bundle into the Applications folder (or elsewhere on your computer).
 
+##### ESP-32 
+To install the ESP32 board in your Arduino IDE, follow these next instructions. 
+In your Arduino IDE, go to File> Preferences : 
+![ArduinoPref]()
+
 ### On Windows
 #### Install Node-RED
 [**Node-RED**](https://nodered.org/) can be used on all platforms that can run Node.js. Node-RED supports Node.js 0.10.x or later. It is recommended to use the LTS (long-term maintenance) version of Node.js. 
@@ -142,6 +149,11 @@ For more information check this tutorial : [**Mosquitto-Install**](https://team-
 Get the latest version of **Arduino** from the [**download page**](https://www.arduino.cc/en/software). You can choose between the Installer (.exe) and the zip packages. We suggest you use the first one that installs directly everything you need to use the Arduino Software (IDE), including the drivers. 
 
 With the zip package you need to install the drivers manually. The zip file is also useful if you want to create a portable installation.
+
+##### ESP-32 
+To install the ESP32 board in your Arduino IDE, follow these next instructions. 
+In your Arduino IDE, go to File> Preferences : 
+![ArduinoPref]()
 
 ## Quick Start
 
