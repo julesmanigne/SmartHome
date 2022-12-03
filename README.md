@@ -92,7 +92,9 @@ After the Mosquitto installation has been completed, run the following command i
 - To ***stop*** the broker, run the following command : ```brew services stop mosquitto```
 
 #### Install Arduino 
-Get the latest version of **Arduino** from the [**download page**](https://www.arduino.cc/en/software). The file is in zip format. If you use Safari it will be automatically extracted. If you use a different browser you may need to extract it manually.
+Get the latest version of **Arduino** from the [**download page**](https://www.arduino.cc/en/software). The file is in zip format, if you use Safari it will be automatically extracted. If you use a different browser you may need to extract it manually.
+
+Then, copy the Arduino application bundle into the Applications folder (or elsewhere on your computer).
 
 ### On Windows
 #### Install Node-RED
