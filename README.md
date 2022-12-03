@@ -155,9 +155,11 @@ With the zip package you need to install the drivers manually. The zip file is a
 To install the ESP32 board in your Arduino IDE, follow these next instructions : <br>
 In your Arduino IDE, go to File> Preferences : 
 
-Enter the following into the ***Additional Board Manager URLs***field : <br>
+Enter the following into the ***Additional Board Manager URLs*** field : <br>
 ```https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json```
 
+Next, open the Boards Manager, go to Tools > Board > Boards Manager <br>
+Search for ESP32 and press install button for the *ESP32 by Espressif Systems*. 
 ## Quick Start
 
 ## Schematics
