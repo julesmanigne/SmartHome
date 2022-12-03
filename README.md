@@ -2,9 +2,7 @@
 ## Build a Smart Home using ESP32 
 
 
-![GitHub](https://img.shields.io/github/license/julesmanigne/SmartHome?color=success)
-![GitHub repo size](https://img.shields.io/github/repo-size/julesmanigne/SmartHome?color=purple)
-![GitHub last commit](https://img.shields.io/github/last-commit/julesmanigne/SmartHome?color=blueviolet&logo=GitHUb&logoColor=yellow)
+![GitHub last commit](https://img.shields.io/github/last-commit/julesmanigne/SmartHome?color=yellow&logo=GitHUb&logoColor=yellow)
 ## Introduction
 
 This project describes how to build a Smart station using ESP32, a BMP388 (temperature sensor), DHT22 (humidity sensor), a SSD1306 (OLED screen) and some LEDs.
@@ -179,10 +177,10 @@ Next, open the Boards Manager, go to Tools > Board > Boards Manager, search for 
 ![ESP32 Smart Home](https://github.com/julesmanigne/SmartHome/blob/master/img/Fritzing-Schematic.jpeg)
 #### Parts : 
 - 1x Breadboard 
-- 1x ESP32 Dev board / ESP8266 NodeMCU (can do the job too)
-- 1x OLED screen (SSD1306)
-- 2x BMP388 Adafruit / BMP280 (can do the job too)
-- 2x DHT11 / DHT22 (can do the job too)
+- 1x ESP32 Dev board (/ ESP8266 NodeMCU) 
+- 1x OLED screen SSD1306
+- 2x BMP388 Adafruit (/ BMP280)
+- 2x DHT11 (/ DHT22) 
 - 6x LEDs 
 ## 📝 License
 
