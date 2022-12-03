@@ -137,7 +137,7 @@ Running the command ```mosquitto.exe -v``` will start the broker.
 For more information check this tutorial : [**Mosquitto-Install**](https://team-ethernet.github.io/guides/How%20to%20install%20and%20use%20Mosquitto%20for%20Windows.pdf)
 
 #### Install Arduino 
-Get the latest version from the download page. You can choose between the Installer (.exe) and the Zip packages. We suggest you use the first one that installs directly everything you need to use the Arduino Software (IDE), including the drivers. 
+Get the latest version of **Arduino** from the [**download page**](https://www.arduino.cc/en/software). You can choose between the Installer (.exe) and the Zip packages. We suggest you use the first one that installs directly everything you need to use the Arduino Software (IDE), including the drivers. 
 
 With the Zip package you need to install the drivers manually. The Zip file is also useful if you want to create a portable installation.
 
