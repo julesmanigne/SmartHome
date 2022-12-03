@@ -101,8 +101,7 @@ Get the latest version of **Arduino** from the [**download page**](https://www.a
 Then, copy the Arduino application bundle into the Applications folder (or elsewhere on your computer).
 
 ##### ESP-32 
-To install the ESP32 board in your Arduino IDE, follow these next instructions : 
-
+To install the ESP32 board in your Arduino IDE, follow these next instructions : <br>
 In your Arduino IDE, go to File> Preferences : 
 
 Enter the following into the “Additional Board Manager URLs” field : 
