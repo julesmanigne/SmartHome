@@ -12,6 +12,8 @@ This project describes how to build a Smart station using ESP32, a BMP388 (tempe
     - [On MacOS](#on-macos)
         - [🍺 Install HomeBrew](#🍺-install-homebrew)
         - [Install Node-RED](#install-node-red)
+            - [Node.js](#node.js)
+            - [Node-RED](#node-red)
         - [Install Mosquitto](#install-mosquitto)
     - [On Windows](#on-windows)
 - [Quick Start](#quick-start)
