@@ -2,9 +2,9 @@
 ## Build a Smart Home using ESP32 
 
 
-![GitHub](https://img.shields.io/github/license/julesmanigne/SmartHome?color=ye)
+![GitHub](https://img.shields.io/github/license/julesmanigne/SmartHome?color=success)
 ![GitHub repo size](https://img.shields.io/github/repo-size/julesmanigne/SmartHome?color=purple)
-![GitHub last commit](https://img.shields.io/github/last-commit/julesmanigne/SmartHome?color=yellow&logo=GitHUb&logoColor=yellow)
+![GitHub last commit](https://img.shields.io/github/last-commit/julesmanigne/SmartHome?color=blueviolet&logo=GitHUb&logoColor=yellow)
 ## Summary
 
 This project describes how to build a Smart station using ESP32, a BMP388 (temperature sensor), DHT22 (humidity sensor), a SSD1306 (OLED screen) and some LEDs. 
@@ -107,6 +107,15 @@ Enter the IP address of the specified server, by default it will be **127.0.0.1:
 
 #### Install Mosquitto
 Download Mosquitto from https://mosquitto.org/download/ and install it, if you install it with the “Service” checkbox checked, it will start automatically with Windows and occupy the default port 1883.
+
+If you installed Mosquitto this way you can disable the service by going into the Services
+menu in Windows and pressing the stop button with the Mosquitto Broker selected. 
+
+The installation path is by default: C:\Program Files\mosquitto
+Navigate to the folder with cmd.exe using cd C:\”Program Files”\mosquitto
+
+Running the command ```mosquitto.exe -v``` will start the broker. 
+For more information check this tutorial : [Mosquitto-Install](pdf/MosquittoInstall.pdf)
 ## Quick Start
 
 ## Schematics
