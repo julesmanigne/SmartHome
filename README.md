@@ -158,8 +158,8 @@ In your Arduino IDE, go to File> Preferences :
 Enter the following into the ***Additional Board Manager URLs*** field : <br>
 ```https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json```
 
-Next, open the Boards Manager, go to Tools > Board > Boards Manager <br>
-Search for ESP32 and press install button for the *ESP32 by Espressif Systems*. 
+Next, open the Boards Manager, go to Tools > Board > Boards Manager, <br>
+Search for ESP32 and press install button for the *ESP32 by Espressif Systems*. That’s it. It should be installed after a few seconds.
 ## Quick Start
 
 ## Schematics
