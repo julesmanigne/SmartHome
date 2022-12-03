@@ -119,6 +119,7 @@ Next, open the Boards Manager, go to Tools > Board > Boards Manager, search for 
 [**Node-RED**](https://nodered.org/) can be used on all platforms that can run Node.js. Node-RED supports Node.js 0.10.x or later. It is recommended to use the LTS (long-term maintenance) version of Node.js. 
 
 ##### Node.js
+
 First, you need to download the Windows Installer (.msi) file from the official [**Node.js**](https://nodejs.org/en/download/) website. This MSI installer database carries a collection of installer files essential to install, update, or modify the existing Node.js version.
 
 Notably, the installer also carries the Node.js package manager (npm) within it. It means you don’t need to install the npm separately.
@@ -132,8 +133,8 @@ Congratulations you’ve installed Node.js & npm, to check the version you can r
 - ``` node --version``` 
 - ``` npm --version```
 
-
 ##### Node-RED
+
 To install **Node-RED** you can use the same npm command as MacOS that comes with Node.js :
 ```bash 
 sudo npm install -g --unsafe-perm node-red
@@ -143,6 +144,7 @@ Once installed, you are ready to run Node-RED, you just have to start with the `
 Enter the IP address of the specified server, by default it will be **127.0.0.1:1880**.
 
 #### Install Mosquitto
+
 Download **Mosquitto** from https://mosquitto.org/download/ and install it, if you install it with the “Service” checkbox checked, it will start automatically with Windows and occupy the default port **1883**.
 
 If you installed Mosquitto this way you can disable the service by going into the Services
@@ -154,12 +156,14 @@ The installation path is by default : ***C:\Program Files\mosquitto***, navigate
 Running the command ```mosquitto.exe -v``` will start the broker. 
 For more information check this tutorial : [**Mosquitto-Install**](https://team-ethernet.github.io/guides/How%20to%20install%20and%20use%20Mosquitto%20for%20Windows.pdf)
 
-#### Install Arduino 
+#### Install Arduino
+
 Get the latest version of **Arduino** from the [**download page**](https://www.arduino.cc/en/software). You can choose between the Installer (.exe) and the zip packages. We suggest you use the first one that installs directly everything you need to use the Arduino Software (IDE), including the drivers. 
 
 With the zip package you need to install the drivers manually. The zip file is also useful if you want to create a portable installation.
 
 ##### ESP-32 
+
 To install the ESP32 board in your Arduino IDE, follow these next instructions : <br>
 In your Arduino IDE, go to File> Preferences : 
 
@@ -167,6 +171,7 @@ Enter the following into the ***Additional Board Manager URLs*** field : <br>
 ```https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json```
 
 Next, open the Boards Manager, go to Tools > Board > Boards Manager, search for ESP32 and press install button for the *ESP32 by Espressif Systems*. That’s it. It should be installed after a few seconds.
+
 ## Quick Start
 
 ## Schematics
