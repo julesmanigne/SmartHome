@@ -39,7 +39,7 @@ Homebrew is now installed, to make sure it is up to date you can run the followi
 We will now use Homebrew to install Node.js and Node-Red. 
 
 ##### Node.js
-To install **Node.js** (npm will be installed with Node) run the following command :
+To install [**Node.js**](https://formulae.brew.sh/formula/node#default) (npm will be installed with Node) run the following command :
 
 ```bash 
 brew install node
@@ -106,7 +106,7 @@ Once installed, you are ready to run Node-RED, you just have to start with the `
 Enter the IP address of the specified server, by default it will be **127.0.0.1:1880**.
 
 #### Install Mosquitto
-
+Download Mosquitto from (https://mosquitto.org/download/) and install it
 ## Quick Start
 
 ## Schematics
