@@ -182,7 +182,7 @@ Next, open the Boards Manager, go to Tools > Board > Boards Manager, search for 
 As mentionned abovve, to start Node-RED, you just have to run the ```node-red``` command : 
 
 ![NodeRED-start](https://github.com/julesmanigne/SmartHome/blob/master/img/NoderedInstall.png)
-> *(MacOS)*
+> (**MacOS**)
 ### Start MQTT 
 
 #### Subscribe to a topic
