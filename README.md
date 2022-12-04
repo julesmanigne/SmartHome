@@ -24,7 +24,9 @@ This project describes how to build a Smart station using ESP32, a BMP388 (tempe
         - [Install Arduino](#install-arduino-1)
             - [ESP-32](#esp-32-1)
 - [Quick Start](#quick-start)
-    - [Start Node-RED](#)
+    - [Start Node-RED](#Start-Node-RED)
+        - [Terminal](#Terminal)
+        - [Localhost](#Localhost)
     - [Start MQTT](#)
         - [Subscribe to a topic](#)
         - [Publish to a topic](#)
@@ -186,7 +188,7 @@ As mentionned abovve, to start Node-RED, you just have to run the ```node-red```
 > (**MacOS**)
 
 #### Localhost 
-In order to access to Node-RED in your browser (Chrome, FireFox, Safari, etc), enter the IP address of the specified server, by default it will be [**127.0.0.1:1880**](http://127.0.0.1:1880/). <br>
+In order to access to Node-RED in your browser (Chrome, FireFox, Safari, etc), enter the IP address of the specified server, by default it will be [**127.0.0.1:1880**](http://127.0.0.1:1880/).
 You should have something that looks like this : 
 
 ![NodeRED-browser](https://github.com/julesmanigne/SmartHome/blob/master/img/Node-RED-Browser.png)
