@@ -230,6 +230,9 @@ In this project we will be using several parts that can be find [here](#parts-) 
 ## Schematic
 
 ![ESP32 Smart Home](https://github.com/julesmanigne/SmartHome/blob/master/img/Fritzing-Schematic.jpeg)
+
+## 3D 
+
 #### Parts : 
 - 1x Breadboard 
 - 1x ESP32 Dev board (/ ESP8266 NodeMCU) 
