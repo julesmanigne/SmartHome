@@ -201,7 +201,14 @@ brew services start mosquitto
 
 #### Subscribe to a topic
 
+```bash
+mosquitto_sub -t inTopic
+``` 
 #### Publish to a topic
+
+```bash
+mosquitto_pub -t inTopic  -m "hellow world"
+``` 
 
 
 ## Schematics
