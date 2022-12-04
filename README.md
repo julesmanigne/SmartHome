@@ -179,6 +179,7 @@ Next, open the Boards Manager, go to Tools > Board > Boards Manager, search for 
 
 ## Quick Start
 ### Start Node-RED 
+As mentionned abovve, to start Node-RED, you just have to run the ```node-red``` command.
 
 ### Start MQTT 
 
