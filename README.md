@@ -231,8 +231,6 @@ In this project we will be using several parts that can be find [here](#parts-) 
 
 ![ESP32 Smart Home](https://github.com/julesmanigne/SmartHome/blob/master/img/Fritzing-Schematic.jpeg)
 
-## 3D 
-
 #### Parts : 
 - 1x Breadboard 
 - 1x ESP32 Dev board (/ ESP8266 NodeMCU) 
@@ -240,6 +238,9 @@ In this project we will be using several parts that can be find [here](#parts-) 
 - 2x BMP388 Adafruit (/ BMP280)
 - 2x DHT11 (/ DHT22) 
 - 6x LEDs 
+
+## 3D 
+
 ## 📝 License
 
 [MIT-License](https://www.mit.edu/~amini/LICENSE.md)
