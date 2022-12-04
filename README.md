@@ -32,7 +32,7 @@ This project describes how to build a Smart station using ESP32, a BMP388 (tempe
         - [Publish to a topic](#Publish-to-a-topic)
     - [](#)
 
-- [Schematics](#schematics)  
+- [Schematic](#schematic)  
 
 ## 🛠️ Installation
 ### On MacOS
@@ -211,7 +211,19 @@ Then, we may want to publish something on the inTopic which can be done using th
 mosquitto_pub -t inTopic  -m "hellow world"
 ``` 
 Now that we set up Node-RED and MQTT we are ready to build our Smart Home. 
-## Schematics
+
+### Arduino 
+Now, we will be showing you how to build an Home Automation System Using Arduino that can control electrical devices. These include held lighting, air conditioning, garage doors, security cameras, motion sensors, energy control units and whether sensors as well. 
+
+So you may have heard about a thing called Arduino and you’re wondering what is this called Arduino? At its essence the Arduino is an electronics tool for making really cool things and people make all types of really awesome things. 
+
+In this project we will be using several parts that can be find [here](#Parts-:) and if you need to see how we put them together, have a look at our [schematic](#Schematic).
+### Node-RED flow 
+#### MQTT in 
+#### MQTT out 
+#### APIs
+
+## Schematic
 
 ![ESP32 Smart Home](https://github.com/julesmanigne/SmartHome/blob/master/img/Fritzing-Schematic.jpeg)
 #### Parts : 
