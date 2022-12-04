@@ -210,6 +210,7 @@ Then, we may want to publish something on the inTopic which can be done using th
 ```bash
 mosquitto_pub -t inTopic  -m "hellow world"
 ``` 
+Now that we set up Node-RED and MQTT we are ready to build our Smart Home. 
 ## Schematics
 
 ![ESP32 Smart Home](https://github.com/julesmanigne/SmartHome/blob/master/img/Fritzing-Schematic.jpeg)
