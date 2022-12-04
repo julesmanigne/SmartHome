@@ -24,6 +24,12 @@ This project describes how to build a Smart station using ESP32, a BMP388 (tempe
         - [Install Arduino](#install-arduino-1)
             - [ESP-32](#esp-32-1)
 - [Quick Start](#quick-start)
+    - [Start Node-RED](#)
+    - [Start MQTT](#)
+        - [Subscribe to a topic](#)
+        - [Publish to a topic](#)
+    - [](#)
+
 - [Schematics](#schematics)  
 
 ## 🛠️ Installation
@@ -172,6 +178,14 @@ Enter the following into the ***Additional Board Manager URLs*** field : <br>
 Next, open the Boards Manager, go to Tools > Board > Boards Manager, search for ESP32 and press install button for the *ESP32 by Espressif Systems*. That’s it. It should be installed after a few seconds.
 
 ## Quick Start
+### Start Node-RED 
+
+### Start MQTT 
+
+#### Subscribe to a topic
+
+#### Publish to a topic
+
 
 ## Schematics
 
