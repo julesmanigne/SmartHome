@@ -217,7 +217,7 @@ Now, we will be showing you how to build an Home Automation System Using Arduino
 
 So you may have heard about a thing called Arduino and you’re wondering what is this called Arduino? At its essence the Arduino is an electronics tool for making really cool things and people make all types of really awesome things. 
 
-In this project we will be using several parts that can be find [here](#Parts-:) and if you need to see how we put them together, have a look at our [schematic](#Schematic).
+In this project we will be using several parts that can be find [here](#parts-) and if you need to see how we put them together, have a look at our [schematic](#Schematic).
 ### Node-RED flow 
 #### MQTT in 
 #### MQTT out 
