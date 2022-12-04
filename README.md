@@ -27,9 +27,9 @@ This project describes how to build a Smart station using ESP32, a BMP388 (tempe
     - [Start Node-RED](#Start-Node-RED)
         - [Terminal](#Terminal)
         - [Localhost](#Localhost)
-    - [Start MQTT](#)
-        - [Subscribe to a topic](#)
-        - [Publish to a topic](#)
+    - [Start MQTT](#Start-MQTT)
+        - [Subscribe to a topic](#Subscribe-to-a-topic)
+        - [Publish to a topic](#Publish-to-a-topic)
     - [](#)
 
 - [Schematics](#schematics)  
@@ -204,6 +204,7 @@ brew services start mosquitto
 ```bash
 mosquitto_sub -t inTopic
 ``` 
+With this command we subscribe to a topic called "inTopic", it means that we will received everything that has benn published on the topic. 
 #### Publish to a topic
 
 ```bash
