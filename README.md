@@ -186,7 +186,9 @@ As mentionned abovve, to start Node-RED, you just have to run the ```node-red```
 > (**MacOS**)
 
 #### Localhost 
-In order to access to Node-RED in your browser (Chrome, FireFox, Safari, etc), enter the IP address of the specified server, by default it will be **127.0.0.1:1880** = (http://127.0.0.1:1880/). 
+In order to access to Node-RED in your browser (Chrome, FireFox, Safari, etc), enter the IP address of the specified server, by default it will be [**127.0.0.1:1880**](http://127.0.0.1:1880/). 
+
+![NodeRED-browser]()
 
 ### Start MQTT 
 
