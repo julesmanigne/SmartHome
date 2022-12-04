@@ -85,7 +85,7 @@ sudo npm install -g --unsafe-perm node-red
 ```
 Once installed, you are ready to run Node-RED, you just have to start with the ```node-red``` command. At first boot, the necessary directories and files will be created automatically.   
 
-![NodeRED-Install](https://github.com/julesmanigne/SmartHome/blob/master/img/NoderedInstall.png)
+![NodeRED-Start](https://github.com/julesmanigne/SmartHome/blob/master/img/NoderedInstall.png)
 
 Enter the IP address of the specified server, by default it will be **127.0.0.1:1880**.
 
@@ -180,7 +180,7 @@ Next, open the Boards Manager, go to Tools > Board > Boards Manager, search for 
 ## Quick Start
 ### Start Node-RED 
 As mentionned abovve, to start Node-RED, you just have to run the ```node-red``` command : 
-![NodeRED-Install](https://github.com/julesmanigne/SmartHome/blob/master/img/NoderedInstall.png)
+![NodeRED-start](https://github.com/julesmanigne/SmartHome/blob/master/img/NoderedInstall.png)
 > (MacOS)
 ### Start MQTT 
 
