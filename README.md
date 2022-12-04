@@ -204,7 +204,7 @@ brew services start mosquitto
 ```bash
 mosquitto_sub -t inTopic
 ``` 
-With this command we subscribe to a topic called **"inTopic"**, it means that we will received everything that has benn published on the topic. 
+With this command we subscribe to a topic called **"inTopic"**, it means that we will received everything that will be published on the topic. 
 #### Publish to a topic
 Then, we may want to publish something on the inTopic which can be done using this command : 
 ```bash
