@@ -194,6 +194,10 @@ You should have something that looks like this :
 ![NodeRED-browser](https://github.com/julesmanigne/SmartHome/blob/master/img/Node-RED-Browser.png)
 
 ### Start MQTT 
+Open your terminal again, enter the following command : 
+```bash 
+brew services start mosquitto
+```
 
 #### Subscribe to a topic
 
