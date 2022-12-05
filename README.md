@@ -1,5 +1,5 @@
 # Greenergy - ESP32 Smart Home
-[]()
+[](https://github.com/julesmanigne/SmartHome/blob/master/img/Greenergy.png)
 
 ![GitHub](https://img.shields.io/github/license/julesmanigne/SmartHome?color=brightgreen)
 ![GitHub repo size](https://img.shields.io/github/repo-size/julesmanigne/SmartHome?color=blueviolet)
