@@ -1,5 +1,5 @@
-# ESP32 Smart Home
-## Build a Smart Home using ESP32 
+# Greenergy - ESP32 Smart Home
+[]()
 
 ![GitHub](https://img.shields.io/github/license/julesmanigne/SmartHome?color=brightgreen)
 ![GitHub repo size](https://img.shields.io/github/repo-size/julesmanigne/SmartHome?color=blueviolet)
