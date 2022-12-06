@@ -153,6 +153,7 @@ void MQTTreconnect()
 
       mqtt.subscribe(MQTT_LIGHT_LIVING);
       mqtt.subscribe(MQTT_LIGHT_BEDROOM);
+      mqtt.subscribe(MQTT_LIGHT);
     }
     else
     {
