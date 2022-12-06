@@ -15,7 +15,7 @@
 #define LED1L 25
 #define LED2L 33
 
-#define DHTB_PIN 12 // what digital pin we're connected to
+#define DHTB_PIN 14 // what digital pin we're connected to
 #define DHTB_TYPE DHT11
 
 #define DHTL_PIN 26 // what digital pin we're connected to
