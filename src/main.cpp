@@ -10,12 +10,12 @@
 
 //========================================================================================
 
-#define LED1B 34
+#define LED1B 27
 #define LED2B 32
 #define LED1L 25
 #define LED2L 33
 
-#define DHTB_PIN 35 // what digital pin we're connected to
+#define DHTB_PIN 12 // what digital pin we're connected to
 #define DHTB_TYPE DHT11
 
 #define DHTL_PIN 26 // what digital pin we're connected to
@@ -90,7 +90,7 @@ void MQTTcallback(char *topic, byte *payload, unsigned int length)
     }
     else if (value == "ON_DESK")
     {
-      digitalWrite(LED2B, LOW);
+      digitalWrite(LED2B, HIGH);
     }
     else if (value == "OFF_DESK")
     {
@@ -110,7 +110,7 @@ void MQTTcallback(char *topic, byte *payload, unsigned int length)
     }
     else if (value == "ON_TABLE")
     {
-      digitalWrite(LED2L, LOW);
+      digitalWrite(LED2L, HIGH);
     }
     else if (value == "OFF_TABLE")
     {
@@ -178,7 +178,7 @@ void setup()
       ;
   }
 
-  Serial.println("Adafruit BMP388_BEDROOM connected");
+  Serial.println("Adafruit BMP388_LIVING connected");
   if (!bmpB.begin_I2C())
   { // hardware I2C mode, can pass in address & alt Wire
     Serial.println("Could not find a valid BMP388 sensor, check wiring!");
