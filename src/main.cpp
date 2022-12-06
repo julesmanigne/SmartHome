@@ -50,6 +50,7 @@ float HUMIDITE_SALON = 0.0;
 
 #define MQTT_LIGHT_BEDROOM "/bedroom/light"
 #define MQTT_LIGHT_LIVING "/livingroom/light"
+#define MQTT_LIGHT "/light"
 
 #define MQTT_TEMPERATURE_LIVING "/sensor/living/temperature"
 #define MQTT_PRESSURE_LIVING "/sensor/living/pressure"
@@ -115,6 +116,24 @@ void MQTTcallback(char *topic, byte *payload, unsigned int length)
     else if (value == "OFF_TABLE")
     {
       digitalWrite(LED2L, LOW);
+    }
+  }
+  else if (topicString == MQTT_LIGHT)
+  {
+    Serial.println("command received : " + value);
+    if (value == "ON_ALL")
+    {
+      digitalWrite(LED1L, HIGH);
+      digitalWrite(LED2L, HIGH);
+      digitalWrite(LED1B, HIGH);
+      digitalWrite(LED2B, HIGH);
+    }
+    else if (value == "OFF_ALL")
+    {
+      digitalWrite(LED1L, LOW);
+      digitalWrite(LED2L, LOW);
+      digitalWrite(LED1B, LOW);
+      digitalWrite(LED2B, LOW);
     }
   }
 }
