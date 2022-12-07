@@ -32,20 +32,28 @@ float ALTITUDE_SALON = 0.0;
 float HUMIDITE_SALON = 0.0;
 //========================================================================================
 
-#define SSID "TribuM"           // WiFi name
-#define PASSWORD "Garennen1j1@" // WiFi password
+// #define SSID "TribuM"           // WiFi name
+//#define PASSWORD "Garennen1j1@" // WiFi password
 
-// #define SSID "iPhone de Jules"
-// #define PASSWORD "Ataturk123"
+// #define SSID "iPhone de Lucie"
+// #define PASSWORD "coudiere"
+
+#define SSID "iPhone de Jules"
+#define PASSWORD "Ataturk123"
 
 // #define SSID "Dolan"
 // #define PASSWORD "dydelu"
 
 //========================================================================================
 
-#define MQTT_SERVER "192.168.1.15" // (Enter your WiFi or Ethernet IP)
-#define MQTT_PORT 1883             // 1883
+// #define MQTT_SERVER "192.168.1.15" // (Enter your WiFi or Ethernet IP)
+// #define MQTT_PORT 1883             // 1883
 
+// c#define MQTT_SERVER "172.20.10.4" // (Enter your WiFi or Ethernet IP)
+//  #define MQTT_PORT 1883
+
+#define MQTT_SERVER "172.20.10.10" // (Enter your WiFi or Ethernet IP)
+#define MQTT_PORT 1883
 //========================================================================================
 
 #define MQTT_LIGHT_BEDROOM "/bedroom/light"
@@ -121,14 +129,14 @@ void MQTTcallback(char *topic, byte *payload, unsigned int length)
   else if (topicString == MQTT_LIGHT)
   {
     Serial.println("command received : " + value);
-    if (value == "ON_ALL")
+    if (value == "ON")
     {
       digitalWrite(LED1L, HIGH);
       digitalWrite(LED2L, HIGH);
       digitalWrite(LED1B, HIGH);
       digitalWrite(LED2B, HIGH);
     }
-    else if (value == "OFF_ALL")
+    else if (value == "OFF")
     {
       digitalWrite(LED1L, LOW);
       digitalWrite(LED2L, LOW);
@@ -178,15 +186,15 @@ void setup()
   pinMode(LED1L, OUTPUT); // LIVING_1
   pinMode(LED2L, OUTPUT); // LIVING_2
   //=========================
-
+  Serial.println();
   //===========DHT===========
-  Serial.println("DHT11_BEDROOM test!");
+  Serial.println("DHT11_BEDROOM connected");
   dht_B.begin();
 
-  Serial.println("DHT11_LIVING test!");
+  Serial.println("DHT11_LIVING connected");
   dht_L.begin();
   //========================
-
+  Serial.println();
   //========BMP388===========
   while (!Serial)
     ;
@@ -198,7 +206,7 @@ void setup()
       ;
   }
 
-  Serial.println("Adafruit BMP388_LIVING connected");
+  Serial.println("Adafruit BMP388_BEDROOM connected");
   if (!bmpB.begin_I2C())
   { // hardware I2C mode, can pass in address & alt Wire
     Serial.println("Could not find a valid BMP388 sensor, check wiring!");
