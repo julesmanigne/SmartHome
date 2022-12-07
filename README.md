@@ -1,7 +1,7 @@
 # Greenergy - ESP32 Smart Home
 ![Greenergy](https://github.com/julesmanigne/SmartHome/blob/master/img/Greenergy.png?raw=true)
 
-![GitHub](https://img.shields.io/github/license/julesmanigne/SmartHome?color=brightgreen)
+![GitHub](https://img.shields.io/github/license/julesmanigne/SmartHome?color=success)
 ![GitHub repo size](https://img.shields.io/github/repo-size/julesmanigne/SmartHome?color=blueviolet)
 ![GitHub last commit](https://img.shields.io/github/last-commit/julesmanigne/SmartHome?color=blue&logo=GitHub&logoColor=blue)
 ## Introduction
