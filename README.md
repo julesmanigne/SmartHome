@@ -1,9 +1,9 @@
 # Greenergy - ESP32 Smart Home
 ![Greenergy](https://github.com/julesmanigne/SmartHome/blob/master/img/Greenergy.png?raw=true)
 
+![GitHub](https://img.shields.io/github/license/julesmanigne/SmartHome)
 ![GitHub repo size](https://img.shields.io/github/repo-size/julesmanigne/SmartHome?color=blueviolet)
 ![GitHub last commit](https://img.shields.io/github/last-commit/julesmanigne/SmartHome?color=blue&logo=GitHub&logoColor=blue)
-![GitHub](https://img.shields.io/github/license/julesmanigne/SmartHome?color=brightgreen)
 ## Introduction
 
 This project describes how to build a Smart station using ESP32, a BMP388 (temperature sensor), DHT22 (humidity sensor), a SSD1306 (OLED screen) and some LEDs. 
