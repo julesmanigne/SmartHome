@@ -234,7 +234,6 @@ In this project we will be using several parts that can be find [here](#parts-) 
 #### Parts : 
 - 1x Breadboard 
 - 1x ESP32 Dev board (/ ESP8266 NodeMCU) 
-- 1x OLED screen SSD1306
 - 2x BMP388 Adafruit (/ BMP280)
 - 2x DHT11 (/ DHT22) 
 - 6x LEDs 
