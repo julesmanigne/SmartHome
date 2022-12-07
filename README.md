@@ -229,7 +229,7 @@ In this project we will be using several parts that can be find [here](#parts-) 
 
 ## Schematic
 
-![ESP32 Smart Home](https://github.com/julesmanigne/SmartHome/blob/master/img/Fritzing-Schematic.jpeg)
+![ESP32 Smart Home](https://github.com/julesmanigne/SmartHome/blob/master/img/Fritzing.png)
 
 #### Parts : 
 - 1x Breadboard 
