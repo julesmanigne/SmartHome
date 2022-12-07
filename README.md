@@ -6,7 +6,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/julesmanigne/SmartHome?color=blue&logo=GitHub&logoColor=blue)
 ## Introduction
 
-This project describes how to build a Smart station using ESP32, a BMP388 (temperature sensor), DHT22 (humidity sensor), a SSD1306 (OLED screen) and some LEDs. 
+This project describes how to build a basic Smart station using a ESP32, a BMP388 (temperature sensor), DHT11 (humidity sensor), and some LEDs. 
 - [🛠️ Installation](#%EF%B8%8F-installation)
     - [On MacOS](#on-macos)
         - [🍺 Install HomeBrew](#-install-homebrew)
